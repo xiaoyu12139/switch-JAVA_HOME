@@ -1,0 +1,3 @@
+Set args = WScript.Arguments
+REM 内容，窗口类型，窗口标题
+MsgBox CStr(args(0)), 48, CStr(args(1)) 
